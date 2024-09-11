@@ -1,17 +1,17 @@
-import Table from './components/Table'
-import './App.css'
-
+import DropdownMenu from './components/menu';
+import './App.css';
 
 function App() {
-
-  return (
-    <>
-      <div>
-        <h1>HORARIO SEMANAL</h1>
-        {Table()}
-      </div>
-    </>
-  )
+    return (
+        <>
+            <div>
+                {DropdownMenu()}
+            </div>
+            <div>
+                <h1>Bienvenido Iván</h1>
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
